@@ -1,0 +1,21 @@
+.card {
+  max-width: 700px;
+  &__icon {
+    height: 100px;
+    width: 100px;
+  }
+  &__half {
+    width: 50%;
+    &:first-child {
+      border-right: 1px solid #c1c0c0;
+    }
+  }
+  &__half-title {
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  &__title {
+    justify-content: center;
+    align-items: center;
+  }
+}
